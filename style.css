@@ -1,0 +1,47 @@
+#book-search-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-row {
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.form-group label {
+    margin-right: 5px;
+}
+
+#price-range-display {
+    margin-top: 20px;
+    margin-left: 10px; 
+    display: flex; 
+    align-items: center; 
+}
+
+
+
+#price-slider-container {
+    margin-top: 20px;
+}
+
+input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    background-color: #0073e6;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #005bb5;
+}
